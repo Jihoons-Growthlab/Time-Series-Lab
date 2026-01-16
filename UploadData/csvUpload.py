@@ -2,6 +2,12 @@ import pandas as pd
 from sqlalchemy import create_engine
 from sqlalchemy.dialects.mysql import DATETIME, DATE, BIGINT, DOUBLE, VARCHAR, TEXT
 
+#  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+#   Summary
+#   일반 csv 파일을 MySQL 테이블에 밀어 넣기
+#   
+#  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 # 1) 입력/테이블 설정
 CSV_PATH = r"/Users/hoon/Desktop/personal_project/Time-Series-Lab/dataset/raw_data.csv"
 TABLE_NAME = "raw_data"
