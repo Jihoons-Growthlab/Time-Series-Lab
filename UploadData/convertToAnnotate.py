@@ -1,5 +1,12 @@
 import csv
 
+#  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+#   Summary
+#   일반 csv 파일을 infulxedDB에 맞게 csv 파일을 변환해주기위한 코드
+#   리눅스로 진행 가능하지만 관리 편의를 위해 파이썬으로 진행
+#  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
 IN_PATH = "/Users/hoon/Desktop/personal_project/Time-Series-Lab/dataset/raw_data.csv"
 OUT_PATH = "/Users/hoon/Desktop/personal_project/Time-Series-Lab/dataset/raw_datConvertedAnnotated.csv"
 MEASUREMENT = "raw_data"
